@@ -6,6 +6,6 @@ If time allows, I will make another image classifier for clothes in RBG scale. A
 
 ### Repository Files
 
-**'not_pants_scrap.ipynb':** Jupyter notebook with all work pertaining to the capstone. This file should be looked at for any grading purposes from instructors. <br/><br/>
+**'Image Classification using Keras.ipynb':** Jupyter notebook with all work pertaining to the capstone. This file should be looked at for any grading purposes from instructors. <br/><br/>
 **'Learning Material':** A directory of learning/practice material used throughout the development of this capstone.
 # Capstone
