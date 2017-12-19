@@ -1,11 +1,16 @@
-# FashionMNIST
+# Exploring Image Classification and GANs with Keras
 
-This is the repository for my capstone, Not Pants! The goal of this project is to create an image classifier for different categories of clothes. <br/><br/>
-The first dataset utilized is a csv containing grayscale images. This image classifier will be using CNNs and Keras to predict categories of clothes. The dataset can be found at https://www.kaggle.com/zalando-research/fashionmnist/data. <br/>
-I've began to create a GAN (Generative Adversarial Network) that has not been complete yet. Feel free to take a look, but it's a work in progress!
+In this notebook I'll be creating image classification models with images found in Zalando's articles which can be found posted on Kaggle. 
+https://www.kaggle.com/zalando-research/fashionmnist
+
+The images are 28x28 pixel grayscale images- similar to the MNIST hand-written dataset. I'll be creating several neural nets to see which are the most effective in this context.
+
+After the classification models, I'll explore generative models (GANs) to see if we're able to generate new images that our models haven't seen.
+
+This is the repository for my capstone for General Assembly. The goal of this project is to create an image classifier for different categories of clothes. <br/><br/>
 
 ### Repository Files
 
 **'Image Classification using Keras.ipynb':** Jupyter notebook with all work pertaining to the capstone. This file should be looked at for any grading purposes from instructors. <br/><br/>
 **'Learning Material':** A directory of learning/practice material used throughout the development of this capstone.
-# Capstone
+
