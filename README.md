@@ -9,6 +9,8 @@ After the classification models, I'll explore generative models (GANs) to see if
 
 This is the repository for my capstone for General Assembly. The goal of this project is to create an image classifier for different categories of clothes. <br/><br/>
 
+Please note I had some difficulties setting up random seeds with keras thus some of the report writeup may not match the models exactly.
+
 ### Repository Files
 
 **'Image Classification using Keras.ipynb':** Jupyter notebook with all work pertaining to the capstone. This file should be looked at for any grading purposes from instructors. <br/><br/>
