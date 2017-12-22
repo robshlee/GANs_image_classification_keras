@@ -13,6 +13,9 @@ This is the repository for my capstone for General Assembly. The goal of this pr
 
 ### Repository Files
 
-**'Image Classification using Keras.ipynb':** Jupyter notebook with all work pertaining to the capstone. This file should be looked at for any grading purposes from instructors. <br/><br/>
+**'Image Classification using Keras.ipynb':** Jupyter notebook with all work pertaining to the capstone. 
 **'Learning Material':** A directory of learning/practice material used throughout the development of this capstone.
-
+**'images':** Generator images are saved here.
+**'loss':** Plots of GAN loss are saved here.
+**'models':** Trained GAN models will be saved here.
+**'archive':** Saved images/models from different iterations of the GAN will be saved here.
