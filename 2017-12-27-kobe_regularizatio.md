@@ -1,22 +1,9 @@
----
-title: "Predicting Kobe with Regularization"
-layout: post
-date: 2017-12-27 22:44
-image: /assets/images/markdown.jpg
-headerImage: false
-tag:
-- markdown
-- elements
-star: true
-category: blog
-author: roblee
-description: Experimenting with different regularization penalties.
----
-
 
 # Predicting Shots per Game by Kobe Bryant
 
-In this notebook I'll be demonstrating regularization penalties through linear models that predict how many shots Kobe Bryant made per game in his career. <br/><br/>
+![title](./img/kobe_title.jpg)
+
+In this post I'll be demonstrating regularization penalties through linear models that predict how many shots Kobe Bryant made per game in his career. <br/><br/>
 Please note I don't follow the NBA and thus don't have domain knowledge for this dataset. As a disclaimer, I believe domain knowledge is a key element in any analysis. That being said it's always been interesting to analyze data without any biases from knowing about the topic. It offers fresh perspective and the ability to truly allow the data to tell a story rather than trying to shape the story based on your preconceived notions.
 
 
@@ -29,9 +16,8 @@ from sklearn.linear_model import LinearRegression, RidgeCV, LassoCV, ElasticNetC
 from sklearn.model_selection import cross_val_score, train_test_split
 from sklearn.preprocessing import StandardScaler
 
-plt.style.use('fivethirtyeight')
-
-%config InlineBackend.figure_format = 'retina'
+import warnings
+warnings.filterwarnings("ignore")
 %matplotlib inline
 ```
 
@@ -262,10 +248,6 @@ print('crossfold mean: ', xfold_mean)
 print('crossfold std: ', xfold_std)
 ```
 
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/scipy/linalg/basic.py:1226: RuntimeWarning: internal gelsd driver lwork query error, required iwork dimension not returned. This is likely the result of LAPACK bug 0038, fixed in LAPACK 3.2.2 (released July 21, 2010). Falling back to 'gelss' driver.
-      warnings.warn(mesg, RuntimeWarning)
-
-
     crossfold mean:  -4.40627525789e+28
     crossfold std:  1.1718160823e+28
 
@@ -318,18 +300,6 @@ print('Validation accuracy: ', lassoCV.score(X_test, y_test))
 ```
 
     Best alpha:  0.10792078438
-
-
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-
-
     LassoCV crossfold mean:  0.639611906999
     LassoCV crossfold std:  0.0163110524353
     Validation accuracy:  0.62856668496
@@ -472,22 +442,6 @@ print('Validation accuracy: ', elasticCV.score(X_test, y_test))
 ```
 
     Best alpha:  0.10792078438
-
-
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-    /Users/robshlee/anaconda3/lib/python3.6/site-packages/sklearn/linear_model/coordinate_descent.py:484: ConvergenceWarning: Objective did not converge. You might want to increase the number of iterations. Fitting data with very small alpha may cause precision problems.
-      ConvergenceWarning)
-
-
     Elastic Net crossfold mean:  0.639611906999
     Elastic Net crossfold std:  0.639611906999
     Validation accuracy:  0.62856668496
@@ -506,7 +460,7 @@ elasticCV.l1_ratio_
 
 
 
-Elastic Net found that an l1 ratio of 1 (all Lasso) was the optimum value for this exmaple.
+Elastic Net found that an L1 ratio of 1 (all Lasso) was the optimum value for this exmaple.
 
 ## Conclusions
 In regards to the modeling, the base linear regression was not a usable model for this dataset. Once we applied regularization penalties, we began to build models that had 'okay' accuracy scores. Comparing the L1 vs L2 penalties yielded the below validation accuracy from the test set.<br/>
@@ -546,25 +500,30 @@ plt.title('Lasso')
 ```
 
 
-![png](2017-12-27-kobe_bryant_regularizatio_files/2017-12-27-kobe_bryant_regularizatio_23_0.png)
+![png](2017-12-27-kobe_regularizatio_files/2017-12-27-kobe_regularizatio_23_0.png)
 
 
 
-![png](2017-12-27-kobe_bryant_regularizatio_files/2017-12-27-kobe_bryant_regularizatio_23_1.png)
-
-
-
-
-
-    <matplotlib.text.Text at 0x11de6c748>
+![png](2017-12-27-kobe_regularizatio_files/2017-12-27-kobe_regularizatio_23_1.png)
 
 
 
 
-![png](2017-12-27-kobe_bryant_regularizatio_files/2017-12-27-kobe_bryant_regularizatio_23_3.png)
+
+    <matplotlib.text.Text at 0x112e5fac8>
 
 
-On a higher level, these two models performed very similarly. As next steps I would like to run some feature engineering starting with the non-zero features from the Lasso regression. In addition I expect running the data through a boosted tree would yield a model with better predictive power.
+
+
+![png](2017-12-27-kobe_regularizatio_files/2017-12-27-kobe_regularizatio_23_3.png)
+
+
+On a higher level, these two models performed very similarly. As next steps I would like to run some feature engineering starting with the non-zero features from the Lasso regression. In addition I expect running the data through a boosted tree would yield a model with better predictive power.<br/><br/>
+All in all I don't think the current models would be good enough for Kobe Bryant given his high standards. So we'll need to continue this effort.
+
+![title](./img/kobe_pray.jpg)
+
+We got you Kobe.
 
 
 ```python
