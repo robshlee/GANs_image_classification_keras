@@ -8,7 +8,7 @@ headerImage: false
 projects: true
 hidden: false # don't count this post in blog pagination
 description: "This is a sample post"
-category: blog
+category: projects
 author: roblee
 externalLink: true
 ---
