@@ -33,24 +33,24 @@ Between the offers I had at the time, the one that aligned with my career goals 
 After a year in the company, I felt like my growth started to stagnate and I needed a bigger challenge. I thought some type of leadership role would be good accelerator for my career.
 
 ## Chapter 3: Amazon.com
-After leaving SPS Commerce I joined Amazon in 2015 as a frontline operations manager at its fulfillment center in North California. Because the site used mostly excel type dashboarding and tools, I picked up VBA. I helped automate a lot of the manual data querying off web tools.
+After leaving SPS Commerce I joined Amazon in 2015 as a frontline operations manager at its fulfillment center in North California. Because the site used mostly excel type dashboarding and tools, I picked up VBA to help automate a lot of the manual data pulling.
 
-8 months later, I transitioned into a process engineering role where I continued to use VBA to automate and create excel reporting tools and also used SQL to create ETL queries.
+8 months later, I transitioned into a process engineering role where I continued to use VBA to automate and create excel reporting and also used SQL to create ETL queries and jobs.
 
-"My boss created a SQL database that used VBA and SQL to pull data from different databases and web portals to store historical data for analysis. At the time I was the most knowledgable in SQL at the site so he transitioned ownership of the database to me. This was my first exposure to database management and because I never received formal training on db management it was a rough and bumpy road. I eventually caught footing and was able to insert new data and create additional views that were needed.
+My boss created a SQL database that used VBA and SQL to pull data from different databases and web portals to store historical data for analysis. He soon transitioned ownership of the database to me. This was my first exposure to database management and because I never received formal training on db management it was a rough and bumpy road. I eventually caught footing and was able to tinker around with the database to optimize the reporting.
 
 In 2016 I was felt limited with performing certain tasks like web scraping because my professional coding knowledge was limited to SQL and VBA. I heard Python was a good first coding language to pick up so I started researching more into how I could utilize it to make my tasks more efficient.
 
-As I continued to research how to use Python, I got more exposed to the world of data science as what I was trying to learn was arguably just data science using Python. Data science sounded very enticing to me as it was a field where I could do the statistical analysis I was performing as a process engineer, but perform them at a higher technical capacity. This when when my gears started turning to 'How do I become a data scientist?'.
+As I continued to research how to use Python, I got more exposed to the world of data science as what I was trying to learn was arguably just data science using Python. Data science sounded very enticing to me as it was a field where I could do the statistical analysis I was performing as a process engineer, but perform them at a higher technical capacity. It didn't take long for my gears to start turning to 'How do I become a data scientist?'.
 
 At first I started to self teach myself data science with online resources. With my job having volatile hours, it was hard to consistently make large strides in knowledge so I started to consider data science boot camps. In 2016 I reached out to a few bootcamps to hear more about the programs and thought this could be a great accelerator for me.
 
-A few months later after the new year in 2017, I got back into the grind of looking into data science programs and got admitted for the fall session at General Assembly. I applied for a leave of absence at Amazon and was good to go!
+A few months later after the new year in 2017, I got back into the grind and looked into data science programs and got admitted for the fall session at General Assembly. I took a leave of absence and was about to start my data science story!
 
 ## Chapter 4: General Assembly
-September 2017 was when I started the Data Science Immersive program at General Assembly in NYC. This program was designed to tackle real world projects by implementing statistical and machine learning models in Python. Our class coded Python endlessly and have had great exposure to ML libraries such as Pandas, Scikit-Learn, stats, Numpy, and so much more.
+September 2017 was when I started the Data Science Immersive program at General Assembly in NYC. This program was designed to tackle real world projects by implementing statistical and machine learning models in Python. Our class coded Python endlessly and had great exposure to ML libraries such as Pandas, Scikit-Learn, stats, Numpy, and so much more.
 
 To get a peak at what type of projects I've done during the 3 month program take a look my github! During this time we also spent a few lectures strictly on using Spark. Overall great experience that I wouldn't take back.
 
-## Chapter 5: __________________________
+## Chapter 5: _________________
 After graduating the immersive program, I returned back to work as a process engineer at Amazon where I've started to incorporate some of the skills I've learned in the program for report automation tasks. My goal at this time is to transition into a role that is pure data science and continue my coding story!"

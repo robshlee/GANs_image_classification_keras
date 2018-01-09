@@ -1,3 +1,18 @@
+---
+title: "My Coding Story"
+layout: post
+date: 2018-01-09
+image: /assets/images/markdown.jpg
+headerImage: false
+tag:
+- markdown
+- elements
+star: true
+category: blog
+author: roblee
+description: Walkthrough of my coding adventures.
+---
+
 {
  "cells": [
   {
