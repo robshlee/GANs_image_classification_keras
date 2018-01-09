@@ -1,0 +1,72 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# My Coding Story\n",
+    "These days with coding bootcamps becoming more mainstream and the plethora of online resources available to self teach yourself how to code, there are many professionals that make a sharp pivot in their careers towards software. Personally my jump towards a coding related career was a gradual one over the course of several years. I thought it'd be worth sharing this on my blog so here's my story!\n",
+    "\n",
+    "## Chapter 1: Undergrad - NJIT\n",
+    "My first exposure to any sort of code was Java in 2010. It was in a CS101 class during my 2nd year in undergrad (majored in Industrial Engineering). It was what you would expect of a 101 class- hello world, data type introductions, etc. Honestly I had a pretty rough time understanding concepts in the beginning, but being introduced to the world of code really was enticing to me at the time. \n",
+    "\n",
+    "After the conclusion of that semester, I didn't have a platform to keep practicing Java as I was already swamped studying for the new semester. It wasn't until my 3rd year in undergrad that I decided to make time and try to self teach myself. At the time I thought web development could be useful and fun, so I picked up a Javascript book from the campus library, opened up my laptop, and started to teach myself. This was also the time I realized how many online resources were available for coding. Codecademy seemed to be the dominant player at this time(to my knowledge anyway) and they still only offered free courses for about 4 languages. I ended up completing the Java and Javascript courses available.\n",
+    "\n",
+    "Because of internships, studying for my last year of undergrad, and applying/interviewing for my first job after college I decided to stop coding for the time being.\n",
+    "\n",
+    "While applying for jobs in my last year of undergrad, I made a conscious effort to find a role where I can use my engineering knowledge and also foster my coding skills.\n",
+    "\n",
+    "## Chapter 2: SPS Commerce\n",
+    "Between the offers I had at the time, the one that aligned with my career goals the best was at SPS Commerce as a business analyst. SPS Commerce is a cloud supply chain solutions company and our division was heading POS analytics. From a technical perspective my job required me to use mostly SQL and VBA to some capacity. In this role I used SQL everyday and had good exposure to querying in a big data environment.\n",
+    "\n",
+    "After a year in the company, I felt like my growth started to stagnate and I needed a bigger challenge. I thought some type of leadership role would be good accelerator for my career.\n",
+    "\n",
+    "## Chapter 3: Amazon.com\n",
+    "After leaving SPS Commerce I joined Amazon in 2015 as a frontline operations manager at its fulfillment center in North California. Because the site used mostly excel type dashboarding and tools, I picked up VBA. I helped automate a lot of the manual data querying off web tools.\n",
+    "\n",
+    "8 months later, I transitioned into a process engineering role where I continued to use VBA to automate and create excel reporting tools and also used SQL to create ETL queries.\n",
+    "\n",
+    "My boss created a SQL database that used VBA and SQL to pull data from different databases and web portals to store historical data for analysis. At the time I was the most knowledgable in SQL at the site so he transitioned ownership of the database to me. This was my first exposure to database management and because I never received formal training on db management it was a rough and bumpy road. I eventually caught footing and was able to insert new data and create additional views that were needed.\n",
+    "\n",
+    "In 2016 I was felt limited with performing certain tasks like web scraping because my professional coding knowledge was limited to SQL and VBA. I heard Python was a good first coding language to pick up so I started researching more into how I could utilize it to make my tasks more efficient.\n",
+    "\n",
+    "As I continued to research how to use Python, I got more exposed to the world of data science as what I was trying to learn was arguably just data science using Python. Data science sounded very enticing to me as it was a field where I could do the statistical analysis I was performing as a process engineer, but perform them at a higher technical capacity. This when when my gears started turning to 'How do I become a data scientist?\n",
+    "\n",
+    "At first I started to self teach myself data science with online resources. With my job having volitle hours, it was hard to consistently make large strides in knowledge so I started to consider data science boot camps. In 2016 I reached out to a few bootcamps to hear more about the programs and thought this could be a great accelerator for me.\n",
+    "\n",
+    "I ended up applying to a data science program, but because it was near the holiday season, my job required longer hours and was less feasible for me to leave at the time. I did manage to complete the pre-work however which were invaluable for my Python knowledge. For those interested these were Learn Python the Hard Way, the Google Python lecture videos, and Hackerrank challenges. \n",
+    "\n",
+    "A few months later after the new year in 2017, I got back into the grind of looking into data science programs and got admitted for the fall session at General Assembly. I applied for a leave of absence at Amazon and was good to go!\n",
+    "\n",
+    "## Chapter 4: General Assembly\n",
+    "September 2017 was when I started the Data Science Immersive program at General Assembly in NYC. This program was designed to tackle real world projects by implementing statistical and machine learning models in Python. Our class coded Python endlessly and have had great exposure to ML libraries such as Pandas, Scikit-Learn, stats, Numpy, and so much more.\n",
+    "\n",
+    "To get a peak at what type of projects I've done during the 3 month program take a look my github! During this time we also spent a few lectures strictly on using Spark. Overall great experience that I wouldn't take back.\n",
+    "\n",
+    "## Chapter 5: _________________\n",
+    "After graduating the immersive program, I returned back to work as a process engineer at Amazon where I've started to incorporate some of the skills I've learned in the program for report automation tasks. My goal at this time is to transition into a role that is pure data science and continue my coding story!\""
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.1"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
